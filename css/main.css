@@ -1,0 +1,21 @@
+html {
+  background-color: #dbd6cf;
+}
+
+body {
+  background-color: #79756f;
+}
+
+h1 {
+  font-style: Bevan, sans-serif;
+  line-height: 1.5em;
+}
+
+li {
+  display: inline-block;
+  background-color: #713837;
+}
+
+.li a {
+  color: #fff;
+}
