@@ -12,8 +12,9 @@ h1 {
   color: #fff;
 }
 
-li {
+ul li {
   display: inline-block;
+  vertical-align: middle;
   background-color: #713837;
 }
 
