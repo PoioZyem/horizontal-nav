@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  margin-top: auto;
+  margin-bottom: auto;
   background-color: #79756f;
 }
 
@@ -23,11 +25,10 @@ ul li {
   display: inline-block;
   vertical-align: middle;
   background-color: #713837;
+  margin: .3em;
+  border: 1px solid #595652;
+  border-radius:0.5em,0.75em;
 }
 
 a {
-  margin: .3em;
-  border: .6em;
-  border-radius:0.5em,0.75em;
-  color: #fff;
-}
+  color: #fff;}
