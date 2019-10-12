@@ -20,6 +20,6 @@ li {
 a {
   margin: .3em;
   border: .6em;
-  border-radius: .5em, .75em;
+  border-radius:0.5em,0.75em;
   color: #fff;
 }
