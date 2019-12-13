@@ -4,33 +4,37 @@ html {
   font-family: sans-serif;
   line-height: 1.5em;
   border: 400px 650px;
+  margin: 0;
 }
 
-*, *::before, ::after{
+*, *::before, ::after {
   box-sizing: inherit;
 }
 
 body {
-  margin-top: auto;
+  margin: 0;
+  border: 1px solid #595652;
   margin-bottom: auto;
   background-color: #79756f;
-  padding:.6em,.5em .75em;
-  margin: 0.3em;
+  padding: .6em .5em .75em;
+  text-align: center;
 }
 
 h1 {
-  font-family: "Bevan", sans-serif;
+  font-family: "Bevan", cursive;
   line-height: 1.5em;
   color: #fff;
   display: inline-block;
+  margin: 0px;
 }
 
 li {
+  margin: 5px;
   font-family: sans-serif;
   display: inline-block;
   vertical-align: middle;
   background-color: #713837;
-  margin: .3em;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -40,6 +44,10 @@ nav {
 
 a {
   color: #fff;
-  list-style-type: inherit;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:hover {
   color: #f33;
 }
